@@ -1,10 +1,10 @@
-import {Result} from "@/interfaces/content.interfaces";
+import {HotelData} from "@/interfaces/content.interfaces";
 
-const API_URL_HOTEL1 = 'http://80.90.188.139:8000/api/v1/test/hotel1'
-const API_URL_HOTEL2 = 'http://80.90.188.139:8000/api/v1/test/hotel2'
+const API_URL_HOTEL1 = 'http://89.223.68.34/api/v1/test/hotel1'
+const API_URL_HOTEL2 = 'http://89.223.68.34/api/v1/test/hotel2'
 
 export const getContent = {
-  async getHotel1(): Promise<Result> {
+  async getHotel1(): Promise<HotelData> {
     try {
       const response = await fetch(API_URL_HOTEL1, { cache: 'no-store' });
       if (!response.ok) {
@@ -17,7 +17,7 @@ export const getContent = {
       throw error;
     }
   },
-  async getHotel2(): Promise<Result> {
+  async getHotel2(): Promise<HotelData> {
     try {
       const response = await fetch(API_URL_HOTEL2, { cache: 'no-store' });
       if (!response.ok) {

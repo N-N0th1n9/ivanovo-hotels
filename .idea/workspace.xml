@@ -5,36 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="471ccbcc-b6eb-42a0-bbf1-cfc11e4c49a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ivanovo-hotels.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/class-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/fb-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/inst-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/vk-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/subdomain/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AboutUsBlock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AdvantagesBlock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BtnRoom.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RoomBlock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/content.interfaces.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/content.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-found.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Address/Address-ArtHotel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Address/Address-IvanovoHotel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Feedback/Feedback.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Feedback/Feedback.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FeedbackBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoomBlock/RoomBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoomBlock/RoomBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/subdomain/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/subdomain/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutUsBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUsBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AdvantagesBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BtnRoom.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RoomBlock.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/content.interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/content.interfaces.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/content.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/content.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +58,16 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;G:\\Work\\ivanovo-hotels\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Work\ivanovo-hotels\src\components\RoomBlock" />
+      <recent name="G:\Work\ivanovo-hotels\src\components\Feedback" />
+      <recent name="G:\Work\ivanovo-hotels\src\components" />
       <recent name="G:\Work\ivanovo-hotels\src\app\pages\dashboard" />
       <recent name="G:\Work\ivanovo-hotels\src\app\pages" />
     </key>
@@ -85,7 +85,40 @@
       <workItem from="1698824182484" duration="1696000" />
       <workItem from="1698867799878" duration="6429000" />
       <workItem from="1698882880694" duration="1023000" />
-      <workItem from="1698940451642" duration="4503000" />
+      <workItem from="1698940451642" duration="5075000" />
+      <workItem from="1698946760421" duration="7472000" />
+      <workItem from="1698964504436" duration="3194000" />
+      <workItem from="1699028880970" duration="15757000" />
+      <workItem from="1699104119990" duration="14983000" />
+      <workItem from="1699135286063" duration="510000" />
+      <workItem from="1699197134681" duration="10611000" />
+      <workItem from="1699261885289" duration="1862000" />
+      <workItem from="1699280954045" duration="12033000" />
+      <workItem from="1699306567826" duration="3523000" />
+      <workItem from="1699376141788" duration="10849000" />
+      <workItem from="1699426043668" duration="2034000" />
+      <workItem from="1699428401271" duration="1208000" />
+      <workItem from="1699429643981" duration="1312000" />
+      <workItem from="1699449116473" duration="13243000" />
+      <workItem from="1699556533185" duration="11513000" />
+      <workItem from="1699632048999" duration="5227000" />
+      <workItem from="1699656133382" duration="632000" />
+      <workItem from="1699823366173" duration="5421000" />
+      <workItem from="1699835243852" duration="153000" />
+      <workItem from="1699866425774" duration="1361000" />
+      <workItem from="1699981163941" duration="15150000" />
+      <workItem from="1700031755208" duration="1896000" />
+      <workItem from="1700055298726" duration="18981000" />
+      <workItem from="1700147149988" duration="3410000" />
+      <workItem from="1700151797457" duration="9944000" />
+      <workItem from="1700254148282" duration="2709000" />
+      <workItem from="1700310778771" duration="4618000" />
+      <workItem from="1700315972242" duration="667000" />
+      <workItem from="1700319279380" duration="1617000" />
+      <workItem from="1700322147028" duration="4000" />
+      <workItem from="1700323449910" duration="373000" />
+      <workItem from="1700332967262" duration="4842000" />
+      <workItem from="1700405244452" duration="508000" />
     </task>
     <servers />
   </component>
