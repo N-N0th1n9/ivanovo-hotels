@@ -1,7 +1,7 @@
 import {HotelData} from "@/interfaces/content.interfaces";
 
-const API_URL_HOTEL1 = 'http://89.223.68.34/api/v1/test/hotel1'
-const API_URL_HOTEL2 = 'http://89.223.68.34/api/v1/test/hotel2'
+const API_URL_HOTEL1 = 'http://89.223.68.34:8000/api/v1/test/hotel1'
+const API_URL_HOTEL2 = 'http://89.223.68.34:8000/api/v1/test/hotel2'
 
 export const getContent = {
   async getHotel1(): Promise<HotelData> {
