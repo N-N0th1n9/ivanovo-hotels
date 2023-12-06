@@ -5,232 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="471ccbcc-b6eb-42a0-bbf1-cfc11e4c49a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/app-build-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/fetch-cache/98e2089851df30f95e71f4a6500fd6b034071e831eeca1c8b1bba062c9b37069" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/fetch-cache/be37237992c2499623dcc11889e1513323629151d95f28686b323c418f439754" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/+huBBiSfjKKZ452JI5UDPB1u2NUByZYHnPOmiOrkCF4=/60.1699132113650.mRhferN+JovsjInBmUghxCQPxVHF-vfMiFY+aBEDCgA=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/+m5fsbOG6Gjj1TNlRGswpEKB2dbNikkWiLiK9orVRgM=/3.1700083056552.leZdZawWQ1mC5iw0FqfT2TL1Am4nEPumLBNA4pGvmc0=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/-1ZnUwunRuvDHtiwBsXGYy8Wsu8a4Gzyy+vIA4j6n8g=/60.1699572711367.qLqn8FS6+2Wa6+6D9iMCfjgA+yAornq1iWZlzrks8bM=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/-6iczZMcPzNSoxZw09uE3TNb9wdo9aq9DAhu6VUa7OE=/60.1699051090013.TZZ1MqE9rwMeIecGEk0HwJYMqBe15t52vsJFgTQ5VCI=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/-8r5uY9KTvem0Dc7wMzB5+czXS50TWL5N2Q9CPsSJLw=/60.1700339721870.AnPYVkB-v2hzxhd5yQCKnyMVIKHstSf+zc1HwsLi+4M=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/-p0oUM0lVFCn8x4KD5hp1T9iFZFnlLTdTXsCLUeyUzo=/60.1699134504306.-SuujavXQluXmY8oL+d3wg4OYfh89VomVHeq+mhbX0c=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/02Far7rqkba6ek0DPbmWkqXzIHOXRF2IW5dQ+zOVstI=/60.1699986540607.+TGSMf1bGe1rtxz7KBN2shD2P1B4jPVvNx6P3103xCQ=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/09ITGLHVBMlgJyjCz42H48A4Wc90tSYi9Kx3mTa0Puo=/60.1699134504540.Ka1NM-JDDi-O5JkyG7AjnCJA42U9WiBUUgbyeARgbao=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/0A2xZ1h5yAlc1HpyK3Qpfore0LcIFJWMbt6tXqUp-60=/60.1699132113372.xWrVBWTquqCO6D2ggAsWmA-osPH1qwJcZ4SUNMi7KMs=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/1-66LHZffAFhH02AAmJxx1wDqNSWhlW9AylP5DECx8w=/60.1700341989954.J7uQ3r8doRD2KTgRIJK7wsqTSA2DdxTV1KODEXtCC4w=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/1WSVKSuWtz2-t+he+s-oogRU0-3897tw-E3g3TIii4E=/60.1700341954551.qLqn8FS6+2Wa6+6D9iMCfjgA+yAornq1iWZlzrks8bM=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/3cOXtzCIYpSI6cQ5u0PLhghMDMlXff+eDdqZbCEjKhE=/60.1699134465447.Ka1NM-JDDi-O5JkyG7AjnCJA42U9WiBUUgbyeARgbao=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/4Mc47dMDWYyq2lDBIE35SzUsRqQnULvyIjF-DAS2Z-s=/60.1699131684843.Ka1NM-JDDi-O5JkyG7AjnCJA42U9WiBUUgbyeARgbao=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/4xI8Ap5sG-cXWsYOaDcjZ5s6zhdGlZgOBVphcD0VruE=/60.1700079754062.AnPYVkB-v2hzxhd5yQCKnyMVIKHstSf+zc1HwsLi+4M=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/5FFJ4LySWdSTOcgXZC3gcUNIcUgf045hgltRfIJ03II=/60.1699134504797.1uncRAwV3CSDmBL0n9Ns4X6vUx13m7WSK5eI7w45QHA=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/5bhKEuDqgK3Xdk0toH2JztxH1Cjqxf7JuvY9IzrhFvI=/60.1699572707319.3vxjy3kgSlc-9n3x3GhKaf0VTT0mibl4F+9tg4S4gGw=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/8a0m5mYGeX5+nKdHjVr61Lp9N-KUx79UIcwOqoh6c9Q=/60.1700342001469.XPFLc+gRlk1PwsGHXr--fclt4NkM1BCX6n3Fm2BwOIw=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/AIOl6zXwu+J2nTHVXiVOeC1xx9TMBB2hnkRYwteomg4=/60.1699134505035.xWrVBWTquqCO6D2ggAsWmA-osPH1qwJcZ4SUNMi7KMs=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/AydrFUBRlwr5ZaWtkmmGwtYCUrNrBdCzA9+HRYhCPao=/60.1699131684283.1uncRAwV3CSDmBL0n9Ns4X6vUx13m7WSK5eI7w45QHA=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/B-LR4-EprR8dV+ed7wEV5uOZ1xvv8JK4SSXfe2YE8ds=/60.1699986930054.bK9TRLs2IOJY9ZnHVvLBe5KMqgp7fs99iLk7+2x+4Nc=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/B2u-WdY7cNTv7igNAlBHVRoGHfYDW+5Jm7moEsC7LBg=/60.1699986930385.YT8ZX0GdI+10rBHWyCD4Gv2mxP8FTju2tK9GuhsqZkg=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/BFO4nVjViV3+zfX8NgN6HH+IQVbwAjgYgkWd8h1iHHM=/60.1699134505011.1uncRAwV3CSDmBL0n9Ns4X6vUx13m7WSK5eI7w45QHA=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/BsUohPtbPGfIxHzMcqk8mTlJdgGQjrvrvrt34zW0jy8=/60.1699134504703.xWrVBWTquqCO6D2ggAsWmA-osPH1qwJcZ4SUNMi7KMs=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/CBfN2bTHnEA1jxHX7VWK-GwE1C5m6keiZtPhp7PkpFc=/60.1699207328201.-SuujavXQluXmY8oL+d3wg4OYfh89VomVHeq+mhbX0c=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/CFLttejUmHeCVfVEb7Z6vMChQruZDVW5jIa6KcMTUo4=/60.1699134465482.xWrVBWTquqCO6D2ggAsWmA-osPH1qwJcZ4SUNMi7KMs=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/CRybEGuw2YER6I6JkPrWj9yoURjpBWQVULx2D+fk8CM=/60.1700341955625.J-3Tg9Qcoe+m5J3D0271NPNzSXcB2GRoMen6cmXCqgo=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/D8cGDMurkRyex+NBDW7RXxCI+T74Vmo-X-JMtStJjKo=/60.1700408737581.6G9WbabeSu3yq2lnV9SWqE41qteafgLsYxrDV8WDI5c=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/Dgi87oewkFxl46rDv03JP8-TMT4aU+Z1A4FYixg0jDE=/60.1699049651697.ZLqK09Z09jF+u0mhBXHomZFMNZ09CKTe5pzssHSYvM0=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/E+MnDvBjRDsjy64GVrNByQsMdqLY1YMBcVKrAeBZENI=/60.1699262028138.7H24plTYPbalpsuy0tL+WoWtXfkPazC82YEqG0L8-4c=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/FwsXWs0x5ET7EUalni3eOD5BsqKmZs5LJ5tOKV3o5g0=/60.1699131684959.mRhferN+JovsjInBmUghxCQPxVHF-vfMiFY+aBEDCgA=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/G7JYohjVruuErET+5Ug-B9Erk62Cmo+g2RCPDotJMs4=/60.1699049816665.EpsKAVRPUv7NpJIccr9F67JM2ZOzrAuXyZ5Lk658sao=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/GQw2eCHlAmxO-tX0Ne2NwBC0Dnq7SgahE33czSN4raw=/60.1699572709108.J7uQ3r8doRD2KTgRIJK7wsqTSA2DdxTV1KODEXtCC4w=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/GVHDxL1EBIw0X03ws6mv+OTNSXbnsBi35RslFIOwPUo=/60.1699049649496.giqktz77JnmGwVyJOgrW2OQE33uxGy5sxvWWJmlpuBI=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/Gw4bSmpvT-QrwlVws+YbaQ1UsmQ1gJ3uMgYAyXAhjJQ=/60.1699051087423.BiZQ8bDfhN3lQX7oVkBMqFoEyP+iEQ-Aju04AuSJKa4=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/HrCKUxVW0sEddy9GAl8nKWsbIAuwAddgTeP+5DpNbRM=/60.1699134477464.Ka1NM-JDDi-O5JkyG7AjnCJA42U9WiBUUgbyeARgbao=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/HvarAUuo7ppaRpE0rF86vRWv80nYtUB1n5NXJbQJ7+Q=/60.1699134465566.1uncRAwV3CSDmBL0n9Ns4X6vUx13m7WSK5eI7w45QHA=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/IjzG6R1ZddKxkeXWZTR+Abn6ccCGp2JUJjesI-7+QF8=/60.1699134465406.-SuujavXQluXmY8oL+d3wg4OYfh89VomVHeq+mhbX0c=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/KDH+iJYY7OeBkOv4KB1XaLC4upn6kRgY+k3XeOn876o=/60.1699108892606.ew+6KK606z52oXNGyp7BEc+un3H+cXu67ARjOtxaVSE=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/L5g4M-INq-aCf4ywUJJ+bZdzZEmrmk4ZoVFpLO12k-o=/60.1700341989332.H14Te+Y3FeHs+s+7SYJ4NNIW+ndph5A+rfvUA4h6Ox8=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/LM8uUNygCL40zOxlqW59ew1vzmZV0R8KMOUOvzx2TfE=/60.1699134477555.xWrVBWTquqCO6D2ggAsWmA-osPH1qwJcZ4SUNMi7KMs=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/LRcUqPHPasenSDjPkMz-I4CV9lQr0bCX70nGiuNdjlM=/60.1699986540148.yaPL-0xM-qsMB6t04vm2XPxXqMtm5gygrQjZnHcLeHs=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/McQLlf4byxPXq4z3uLCFDhvqSEyuK7TQ3LvbnjRCG7w=/60.1700339721681.AnPYVkB-v2hzxhd5yQCKnyMVIKHstSf+zc1HwsLi+4M=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/MddUQx4vk2YnWBgRBD6F-DyeC9kmR-gGvXOR9SEOIhs=/60.1699262028145.leZdZawWQ1mC5iw0FqfT2TL1Am4nEPumLBNA4pGvmc0=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/O2ZVSsLAkElJGyYkrD2eCq8eMTrZfbwd70oVrzCTQ7E=/60.1699131684393.xWrVBWTquqCO6D2ggAsWmA-osPH1qwJcZ4SUNMi7KMs=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/P-hVY1K3pjlwTvVtelrjyEJ0XH+wceIjSwJhInZmiEU=/60.1699134465508.mRhferN+JovsjInBmUghxCQPxVHF-vfMiFY+aBEDCgA=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/P2hDtowb39PdfJ3m5VGnYtdjMmnHyEQUq1R4Cvw6lNk=/60.1699572709696.H14Te+Y3FeHs+s+7SYJ4NNIW+ndph5A+rfvUA4h6Ox8=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/QU9dRGI1fRkhaOIPmczcO3Kw1siw-6+kArTy-8rvVr0=/60.1700164147474.AnPYVkB-v2hzxhd5yQCKnyMVIKHstSf+zc1HwsLi+4M=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/QfWAHAyp-bV32nDngaJZiALaw+Ue0OsgW9FYlcISy-Q=/60.1699049812225.YAr9Ps3kMzFYhzi74MfLOp2gsK1BPEsEO6qZYmLbDuE=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/Qk0g7tbUamAzr+YaoRsWH3tr22Ogd1FE7466y+dFRW0=/60.1699134504204.mRhferN+JovsjInBmUghxCQPxVHF-vfMiFY+aBEDCgA=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/R1EFtVl94i7t+PjNAOW0X1DdcDf0pr7gEv7sOaqAxjM=/60.1699049644886.Z-UU2cmwYzXf25Ug+hXDHVxH+t+oCfftxi3vaKANVJI=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/RIu9DPpDN5295irA-43MwC43OY7YuNqtBVGbeT-yYBk=/3.1699198218019.DU2UDDZP86WO-qsx5KEzqvcOBAI+ffELWgHo1CCO+-A=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/T3IKYbU0nfPC+4NIPT0PHula42NkWOy0KLSG4yVih+I=/60.1699198217042.7H24plTYPbalpsuy0tL+WoWtXfkPazC82YEqG0L8-4c=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/TAWo2QAYxJ+00KljoCtP9Y0ZgsChDuHIJYdy8RefW2w=/60.1700341990441.L-lCOm-W+DKiYdu+aP3MFPnnmeWYhmyPfK8jRYHnuxc=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/UkQQZqMxxvTDNXuO58P+RPngQLzW3iBqhn5Vw6QFzwM=/60.1700341935822.FvMLei97nziA5GiZ8Wg4PWHmGPAtJXWTxt9sQuYMTN0=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/Vptb9epxmD4oAxEceiYyo66VOnHke9aPpKAQ3pBa8Uc=/60.1700342003199.3vxjy3kgSlc-9n3x3GhKaf0VTT0mibl4F+9tg4S4gGw=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/WmIpxZqylW+hGc5UfPc2KnNHkzx1LQTWGMVrK5RTxlw=/60.1699986540304.RpLCe2+GZUj7ZDx7TCKuw7Q5mLNkcM3UOzpcD+Gj3e8=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/Xbj7p+yvXmXNnKHIfVjhjpw4ASlf9y66KP4GGtQ-DxE=/60.1699986540523.jygkxWKJZdlp7bmMY3I+v3wKfxKYJzBiAn6lbbJejAs=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/XqwPM2ZsuUXnxRRy0DIHHi34H6G2GEwnEh46Qkt3yvc=/60.1699134477494.-SuujavXQluXmY8oL+d3wg4OYfh89VomVHeq+mhbX0c=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/YRNrwDbmh1ac+Q8dsOc-gZVWulZVGRlRnHtirCA+5eE=/60.1699132115177.1uncRAwV3CSDmBL0n9Ns4X6vUx13m7WSK5eI7w45QHA=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/Z4AIGgEOu7NgZjg944sC7b3gZ6bIBfxGpokhjCHwztE=/60.1700256850047.AnPYVkB-v2hzxhd5yQCKnyMVIKHstSf+zc1HwsLi+4M=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/ZD9AEnlJwU086WLINXrjdDVknFD25emdNh8jckDSVwQ=/60.1699051076958.KdVkmZxZYdMrqNaY82r4c+MyiTNpz20PF2KVyKVFTX4=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/ZPCogAPyhTcUJ6kntxJ6UVf8iIkrEG5A9Ukmejd8x7Q=/60.1700341984544.AnPYVkB-v2hzxhd5yQCKnyMVIKHstSf+zc1HwsLi+4M=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/ZVfnHCdthGWqe0XWAuuKcbNzP4mc5HV7aW7sHbKO9yw=/60.1699049648406.Bce1yhUltSP--VHYYZTHn6-NmuGxYLidDj58GzUZ040=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/aBd+vm48lJ109JvjKrmTUlbTNge3yA1nsWxEpNgHlb8=/60.1699131684755.-SuujavXQluXmY8oL+d3wg4OYfh89VomVHeq+mhbX0c=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/ad0OP7rujQNjVj89x217ok+eqDQPjZpeq3a+4-x+yYY=/60.1699040450428.F1RfuY5vJ9LS4rQuYhcGr73eHM2dukNWT+ZSmNrZ9sA=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/b1IvSWti1scddLSq8nt9aNW0REfqrbFI998HOTzc9kQ=/60.1700339721778.AnPYVkB-v2hzxhd5yQCKnyMVIKHstSf+zc1HwsLi+4M=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/bId5xfyvKJliOenwZ1rCMJsEwA7JDtIg3qw7XrdZzn0=/60.1699049682721.qyP3BQLvOfsqBYqJkBprvkA7UxYciIZRwk4AHmR3bsw=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/bPS6B6EpIEzf+v867B-NCETswsnNiQUXbkgJwYZvXaU=/60.1699131684493.3yyMJu0R2An0T-7+OTKom3AAj9wk9r3AsoK2zHopWyI=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/eoANE2DeXCVuHzFIJTQUsMml8hQ9wJioblmL5rpu+EA=/60.1700323754042.AnPYVkB-v2hzxhd5yQCKnyMVIKHstSf+zc1HwsLi+4M=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/fykrXGU8VP9eQ6FHewOd9hu9t-85q9NNvcOohvzNdYQ=/60.1699051076212.me6hJPNoCjFeB65jZpnQ0QGuWWlVGM4BOX-qHgLj8Fw=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/gGihIqnL0UqrcoBzs43JMlLMf5PWVH9ZLNNwCgsfXXw=/60.1699986930143.Odo4aF3xnsezM8trWPUmAlg-iwd5RV-uajOl0nluXb4=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/h+AKLolC+ZuMDPRV6LhTHZYjtzuolz5wzycdIS+wg9Q=/60.1699262010613.BE4daGMq5pvLvglcLA2z-gDS302ZiGrsmI5JAnF0DN4=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/h0sPoqMt81gPOecDg-wciaIZ+q2RA-n2S1BH2ehj+F4=/60.1699986930239.5vKZyrQewKcvpJY3awE5PqhY+Lsc99wOP8M9NMFZFf4=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/hOCycyca8GAap9jPbj39GzHYqM8FfbWeWK6qMCiXXqI=/60.1699198217105.-5Z5rWnwXd36stbEVxVX-wRLszzmxh5qN24HTxIJ3RQ=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/i9Ulu1PHZqNf7Db1TvjX4fgOuKuuVJzUL169UI1uJps=/60.1699134504900.Ka1NM-JDDi-O5JkyG7AjnCJA42U9WiBUUgbyeARgbao=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/iKUbT0N57fIg+1FFcAbxOXsxy1E4WBB8Nxkhd4ncR+s=/60.1699134504861.-SuujavXQluXmY8oL+d3wg4OYfh89VomVHeq+mhbX0c=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/iTAtTbhI9pC7h6HPSK8Q4d8rWzmEAWki9qQxuGSPQ6M=/60.1699049643377.5xGqZORASuALWKMrZe1-XBrDOSCIcVeSO3z3xeV-M9I=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/irpf2dVJ9Mka7oxiWsbDUB3K1P+7QCM4cX+ULJQHmPM=/60.1699572717853.2lYaFlKflRM4lfOJj6OUlpRUlHQ01YdnTCxYgsibumc=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/j50dfKNosLMmJgHyke0y9YgSCUPx2Egt8PxlENpsX2Q=/60.1699051083697.fyO6M+HJJFVHxSYqg6KUVFDB73XXxMIeUSj2AMagYWQ=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/lvnzR0oK26lj+92u3ag9YL7I9jNnUsrLxLfX+F1LJI0=/60.1699572706976.XPFLc+gRlk1PwsGHXr--fclt4NkM1BCX6n3Fm2BwOIw=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/mOLMur6ptj-HtIN93Huwc-FuvrLFKjvSZfXjaTnqCYQ=/60.1699572708493.+RvV5jdTu+GhxnuXd5BFAW-v+J+n4k5rHQyqx1XnxnE=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/mefldrD78Roef3cnRjX4S5+CXbYLKpWWGng+MjbnRgw=/60.1699049647777.xzC39HxyUI7ZMsfpwiBUiCnlPYhO+O-s2DzNX17iM10=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/mq-H9pTYDaqUOiKwiLIF3dwdPZxfU1nyrVeE7hPmluE=/60.1699207506317.7H24plTYPbalpsuy0tL+WoWtXfkPazC82YEqG0L8-4c=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/pFpqw7zxNI1DKSLYgdHSeXesBNZx8r398hGjdKfLXuw=/60.1699051079371.Q95EyCAgM7rSYlsrxVwUlXr2SJYnHatn-26RUsh+AvQ=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/pUcQLJ64-Zd6OFwb0YLnxREP-KZ4v5L0-6EdIucYkWg=/60.1699134477604.1uncRAwV3CSDmBL0n9Ns4X6vUx13m7WSK5eI7w45QHA=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/pdc55qKtx9vAjK9kD4Iwl+WUriXTcOeVArYhi-RpFWA=/60.1699134504960.mRhferN+JovsjInBmUghxCQPxVHF-vfMiFY+aBEDCgA=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/qgX2tLs1Jf-3Nd0Us-VQBtHvR7HGHamHwedROndrEpI=/60.1700341985614.Au0WzJt94w8DboD6JStTV0c5UM2Ep38lTOFiazkQDB0=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/rzO6EuwCrrfL5SBF1WC0aiEYkbWiBgzV9z68PEGhOmE=/60.1699467479198.1EhuDsTuUfl5UmXIhC76rjq63EH0sObx+eOy7-RPpcA=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/skwgm1QzaqjIFBqixwk5a+2mp04tGux6CnwqpSTlkvg=/60.1699986930324.DzKkEGL8mYHwbo4xySEIckiCY+5lS6z3Vj7GvuR5RVs=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/twGq05OYra0O5I+hmnsOGNCce3DEsx7BZcu2GUEIyXU=/60.1700256848585.AnPYVkB-v2hzxhd5yQCKnyMVIKHstSf+zc1HwsLi+4M=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/u3lJTJ1Y+oRfrshEQgbysqjxakQK0WDIrCjt2dD4Lpg=/60.1699203699526.-5Z5rWnwXd36stbEVxVX-wRLszzmxh5qN24HTxIJ3RQ=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/uY2UJlHjxMERBCZr886zIVWzvxNAPa24GFaJpQQO8mU=/60.1699036389942.0UCqMZBamlNrkc67pgSrQegXVNO70qrbHRJtPjCU23Q=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/uxgRRcQg+ByQzFyI6wG5PDIL1QsdjSB-mKqr+RDyu6c=/60.1699198216971.IfaJRo9hTN2bub3pM7Rp0JcMjHNV37nUC6s96SATuGc=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/vNlkv1hvSicAlS5QboDHfHql3DEC38x-rjPTKV3C2WE=/60.1699206829885.BE4daGMq5pvLvglcLA2z-gDS302ZiGrsmI5JAnF0DN4=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/vYDTmH6jS0dzhTI8AnXKts9kQTbNnWK4-DSRBwujyJQ=/60.1699198217003.leZdZawWQ1mC5iw0FqfT2TL1Am4nEPumLBNA4pGvmc0=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/vabCTLhWh3Jh52ESS0lmHBrOJbLi62uthGtj-AfR7q8=/60.1699262010669.-SuujavXQluXmY8oL+d3wg4OYfh89VomVHeq+mhbX0c=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/vcKADfQ0qsMnlqK6-Rh0U4KNmnoqekc61RCGIQ+gcmU=/60.1699036386749.hLkn9RJQX1BEA0-yldcxC+PdmzMDdMnvjnoWJNkd23I=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/wg4PKpxvxWXPL3L1jWmZy1TAVUxfYRk4IldxXuIrmCI=/60.1699206829824.-SuujavXQluXmY8oL+d3wg4OYfh89VomVHeq+mhbX0c=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/x-texWr8KsppV7LDXl5ihlikQBOR0ikzQ2RxeoliDOk=/60.1699134477526.mRhferN+JovsjInBmUghxCQPxVHF-vfMiFY+aBEDCgA=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/x13xafEYF-pjQygMzrEIbr-fa5qmwC8ZYHWl37JdtsE=/60.1699036629075.C4u3p7wi+GsJbkeMMxTCHsLZTtELSi01KWeX1tXyOkQ=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/xLsvLsmy9tAFQCEGrshs9kgbiys2NdvPcvwFIN8uZ8s=/60.1700342000347.+RvV5jdTu+GhxnuXd5BFAW-v+J+n4k5rHQyqx1XnxnE=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/yF-Gd53gQLAKeh3el-sggfI0zhUlD5l6-RVyRRFFTAA=/60.1699207328222.BE4daGMq5pvLvglcLA2z-gDS302ZiGrsmI5JAnF0DN4=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/z5giNjwXoBqGEtOC5EbGWkjkLonyj8xsqDjCotNlLgA=/60.1699197963851.qkKRJqnmt5s+D6xMyzCnuQbFLYHvcEVKHL7o9YKpW4w=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/zNBax785a3jAXjLr6rkLvH6rxScZXPMqZ1KJVpfopIY=/60.1699986540412.l9CBJ1gHX7Qo-+-7Ng1y+ctBGYHqxykVzAKI9Q0jtF8=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/zQpA3-ELHxMw4uU5AjKzy8V8brq7q44FVx0VDTTj50U=/60.1699262029084.-5Z5rWnwXd36stbEVxVX-wRLszzmxh5qN24HTxIJ3RQ=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/zVVil8-hFMqhpMuVvnEzTs1iSmiSDuAoIaoLBmMsVls=/60.1699572710435.J-3Tg9Qcoe+m5J3D0271NPNzSXcB2GRoMen6cmXCqgo=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development-fallback/0.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development-fallback/1.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development-fallback/2.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development-fallback/index.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development-fallback/index.pack.gz.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/0.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/1.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/10.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/11.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/12.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/13.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/14.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/15.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/16.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/2.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/3.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/4.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/5.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/6.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/7.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/8.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/9.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.gz.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/edge-server-development/0.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/edge-server-development/index.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/edge-server-development/index.pack.gz.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/1.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/10.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/11.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/12.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/13.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/14.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/15.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/16.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/17.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/18.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/19.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/2.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/3.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/4.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/5.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/6.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/7.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/8.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/9.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.gz.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/react-loadable-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app-paths-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/_not-found_client-reference-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/favicon.ico/route.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/not-found_client-reference-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/page_client-reference-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/subdomain/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/subdomain/page_client-reference-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/middleware-build-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/middleware-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/middleware-react-loadable-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/next-font-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/next-font-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/server-reference-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/server-reference-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/@swc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/lodash.throttle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/next.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/object-assign.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/prop-types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/react-intersection-observer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/react-is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/react-scroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/swiper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/webpack-runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/app-pages-internals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/app/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/app/not-found.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/app/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/app/subdomain/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/main-app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/polyfills.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/css/app/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/css/app/subdomain/page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/development/_ssgManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/media/05a31a2ca4975f99-s.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/media/10ca58f12dc31ec2-s.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/media/23f25237a0dd6e5e-s.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/media/4211d34fd1c6f59f-s.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/media/513657b02c5c193f-s.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/media/51ed15f9841b9f9d-s.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/media/527ad038b46df541-s.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/media/61b81e7bde89ba40-s.p.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/media/c9a5bc6a7c948fb0-s.p.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/media/d6b16ce4a6175f26-s.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/media/ec159349637c90ad-s.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/media/fd4db3eb5472fc27-s.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/17f1fd4dc121bbb3.webpack.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/633457081244afec._.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.17f1fd4dc121bbb3.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/app/layout.e1c4aa0e716ff546.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/e1c4aa0e716ff546.webpack.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.17f1fd4dc121bbb3.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/webpack.e1c4aa0e716ff546.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/trace" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/types/app/layout.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/types/app/page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/types/app/subdomain/page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/types/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/content.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/content.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,26 +22,31 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2XX9APbGW76mtK8i01Rq3qABiUW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;G:\\Work\\ivanovo-hotels\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/romad/PycharmProjects/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "G:\\Work\\ivanovo-hotels\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Work\ivanovo-hotels\src\components\RoomBlock" />
