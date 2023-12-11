@@ -55,7 +55,7 @@ const roomsImg = [
 ]
 
 const Subdomain: NextPage = async () => {
-  const content = await getContent.getHotel1()
+  const content = await getContent()
 
   const lightBgColor = content.colors.light_bg_color
   const darkBgColor = content.colors.dark_bg_color
@@ -68,8 +68,10 @@ const Subdomain: NextPage = async () => {
   const rooms = content.rooms.blocks
 
   // Поменять пути к фоткам из API на путь к ним на сервере
-  // Сделать 404
   // Настроить meta
+  // Найти способ чтобы отклчить темную тему, так как белый фон меняется на черный взависимости от темы на устройстве
+  // Решить проблемы из лс с Сашей так же
+  // hover для кнопок убрать focus или полностью убрать на телефоне
   return (
       <div className='w-full h-full'>
         {/* Header-video */}

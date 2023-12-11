@@ -14,7 +14,6 @@ interface AboutUsBlockProps {
 }
 
 export const AboutUsBlock: FC<AboutUsBlockProps> = ({item, color}) => {
-
   const [ref, inView] = useInView({
     threshold: 0.7,
   })

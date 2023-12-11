@@ -26,7 +26,7 @@ const RoomBlock: FC<RoomProps> = ({room, image, btnText, bg}) => {
               <h4 className='font-bold mb-2'>{room.short_description}</h4>
               <ul className='font-normal mb-10'>
                 {room.features.map((feature) =>
-                    <li className='flex gap-1 mb-1'><span>—</span>{feature}</li>
+                    <li className='flex gap-1 mb-1' key={feature}><span>—</span>{feature}</li>
                 )}
               </ul>
             </div>
