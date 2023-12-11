@@ -8,9 +8,9 @@ const domain = headersList.get('host') || "";
 
 let API_URL = '';
 
-if (domain === 'https://ivanovohotel.ivhg.ru') {
+if (domain === 'ivanovohotel.ivhg.ru') {
   API_URL = 'http://94.241.138.67:8000/api/v1/test/hotel1';
-} else if (domain === 'https://ivanovohotel.ivhg.ru') {
+} else if (domain === 'arthotel.ivhg.ru') {
   API_URL = 'http://94.241.138.67:8000/api/v1/test/hotel2';
 }
 
