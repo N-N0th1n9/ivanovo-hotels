@@ -9,11 +9,17 @@ export const getContent = async (subdomain: string): Promise<HotelData> => {
 
   let API_URL = '';
 
-  //Если 1 то редирект через мидлвеер на первый поддамен если 2 то на другой
 
-  if (domain === 'localhost:3000') {
+
+  // if (domain === 'localhost:3000') {
+  //   API_URL = 'http://94.241.138.67:8000/api/v1/test/hotel1';
+  // } else if (domain === 'localhost:3000') {
+  //   API_URL = 'http://94.241.138.67:8000/api/v1/test/hotel2';
+  // }
+
+  if (domain === 'ivanovohotel.ivhg.ru') {
     API_URL = 'http://94.241.138.67:8000/api/v1/test/hotel1';
-  } else if (domain === 'localhost:3000') {
+  } else if (domain === 'arthotel.ivhg.ru') {
     API_URL = 'http://94.241.138.67:8000/api/v1/test/hotel2';
   }
 
