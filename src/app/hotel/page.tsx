@@ -107,7 +107,7 @@ const Hotel = async ({params}: {
               <h3 className='text-[44px] xl:text-4xl lg:text-[32px] md:text-2xl 600px:text-xl 2xs:text-[18px]'>{content.main.sub_title}</h3>
             </div>
           </div>
-          <video loop muted autoPlay preload='none' className='absolute top-0 left-0 w-full h-full object-cover -z-10'>
+          <video loop muted autoPlay className='absolute top-0 left-0 w-full h-full object-cover -z-10'>
             <source src='/videos/Иваново%20отель.webm'/>
           </video>
         </section>
