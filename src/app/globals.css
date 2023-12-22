@@ -7,9 +7,11 @@ body {
 }
 
 body > #root > div {
+  min-height: 100dvh;
   height: 100%;
 }
 
 :root {
   color-scheme: only light;
 }
+
