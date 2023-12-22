@@ -1,19 +1,18 @@
-// next.config.js
 module.exports = {
   async redirects() {
     return [
       {
-        source: 'https://ivanovohotel.ivhg.ru',
-        destination: 'https://ivanovohotel.ivhg.ru/hotel',
+        source: '/:path*',
+        destination: 'https://ivanovohotel.ivhg.ru/hotel/:path*',
         permanent: true,
       },
       {
-        source: 'https://arthotel.ivhg.ru',
-        destination: 'https://arthotel.ivhg.ru/hotel',
+        source: '/:path*',
+        destination: 'https://arthotel.ivhg.ru/hotel/:path*',
         permanent: true,
       },
       {
-        source: 'https://ivhg.ru',
+        source: '/:path*',
         destination: 'https://ivhg.ru/hotel-selection',
         permanent: true,
       },
