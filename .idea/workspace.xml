@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="471ccbcc-b6eb-42a0-bbf1-cfc11e4c49a2" name="Changes" comment="pre-alfa fix">
-      <change afterPath="$PROJECT_DIR$/src/app/hotel-selection/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/class-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/class-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/fb-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/fb-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/inst-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/inst-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/vk-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/vk-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/not-found.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/not-found.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/subdomain/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/hotel/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Feedback/Feedback.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feedback/Feedback.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Feedback/Feedback.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feedback/Feedback.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedbackBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middleware/redirectMiddleware.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/content.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/content.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +106,7 @@
       <workItem from="1702992466695" duration="5948000" />
       <workItem from="1703094366352" duration="8293000" />
       <workItem from="1703166932616" duration="7420000" />
-      <workItem from="1703263641652" duration="1147000" />
+      <workItem from="1703263641652" duration="1768000" />
     </task>
     <task id="LOCAL-00001" summary="pre-alfa fix">
       <option name="closed" value="true" />
