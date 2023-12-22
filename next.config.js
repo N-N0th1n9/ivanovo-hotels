@@ -10,8 +10,8 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/path*',
-        destination: 'https://arthotel.ivhg.ru/hotel',
+        source: '/',
+        destination: 'https://arthotel.ivhg.ru/hotel/path*',
         has: [
           { type: 'host', value: 'arthotel.ivhg.ru' },
         ],
