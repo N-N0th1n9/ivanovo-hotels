@@ -2,7 +2,7 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/:path((?!hotel$).*)',
+        source: '/',
         destination: 'https://ivanovohotel.ivhg.ru/hotel',
         has: [
           { type: 'host', value: 'ivanovohotel.ivhg.ru' },
@@ -10,7 +10,7 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/:path((?!hotel$).*)',
+        source: '/path*',
         destination: 'https://arthotel.ivhg.ru/hotel',
         has: [
           { type: 'host', value: 'arthotel.ivhg.ru' },
@@ -18,7 +18,7 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/:path((?!hotel-selection$).*)',
+        source: '/',
         destination: 'https://ivhg.ru/hotel-selection',
         has: [
           { type: 'host', value: 'ivhg.ru' },
