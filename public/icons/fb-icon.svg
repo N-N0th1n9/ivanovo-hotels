@@ -1,8 +1,6 @@
 <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="80" height="80" fill="#1E1E1E"/>
 <path d="M-3251 -14529C-3251 -14530.1 -3250.1 -14531 -3249 -14531H12715C12716.1 -14531 12717 -14530.1 12717 -14529V2875C12717 2876.1 12716.1 2877 12715 2877H-3249C-3250.1 2877 -3251 2876.11 -3251 2875V-14529Z" fill="#404040"/>
 <g clip-path="url(#clip0_94_2)">
-<rect width="1920" height="11808" transform="translate(-401 -11648)" fill="white"/>
 <rect x="-401" y="-471" width="1920" height="631" fill="#1B1B1B"/>
 <rect width="80" height="80" fill="url(#pattern0)"/>
 </g>

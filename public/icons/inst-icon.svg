@@ -2,7 +2,6 @@
 <rect width="80" height="80" fill="#1E1E1E"/>
 <path d="M-3401 -14529C-3401 -14530.1 -3400.1 -14531 -3399 -14531H12565C12566.1 -14531 12567 -14530.1 12567 -14529V2875C12567 2876.1 12566.1 2877 12565 2877H-3399C-3400.1 2877 -3401 2876.11 -3401 2875V-14529Z" fill="#404040"/>
 <g clip-path="url(#clip0_94_2)">
-<rect width="1920" height="11808" transform="translate(-551 -11648)" fill="white"/>
 <rect x="-551" y="-471" width="1920" height="631" fill="#1B1B1B"/>
 <rect width="80" height="80" fill="url(#pattern0)"/>
 </g>

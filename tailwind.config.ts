@@ -21,6 +21,9 @@ const config: Config = {
     extend: {
     },
   },
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   plugins: [
     require('tailwindcss'),
     require('autoprefixer'),

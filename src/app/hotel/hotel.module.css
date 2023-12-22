@@ -1,0 +1,22 @@
+.link a {
+    max-width: fit-content;
+}
+
+.link a:not(:has(img)):after {
+    content: '';
+    height: 1px;
+    width: 0;
+    display: block;
+    background-color: white;
+    transition: .4s ease-in-out;
+}
+
+.link a:hover:after {
+    width: 100%
+}
+
+@media (max-width: 414px) {
+    .link a:hover:after {
+        width: 0;
+    }
+}

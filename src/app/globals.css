@@ -10,25 +10,6 @@ body > #root > div {
   height: 100%;
 }
 
-a {
-  max-width: fit-content;
-}
-
-a:not(:has(img)):after {
-  content: '';
-  height: 1px;
-  width: 0;
-  display: block;
-  background-color: white;
-  transition: .4s ease-in-out;
-}
-
-a:hover:after {
-  width: 100%
-}
-
-@media (max-width: 414px) {
-  a:hover:after {
-    width: 0;
-  }
+:root {
+  color-scheme: only light;
 }

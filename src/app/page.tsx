@@ -1,7 +1,10 @@
-export default async function Home() {
-  return (
-    <main>
-    </main>
-  )
-}
+import Link from "next/link";
 
+
+const Home = () => {
+  return (
+      <main></main>
+  );
+};
+
+export default Home;

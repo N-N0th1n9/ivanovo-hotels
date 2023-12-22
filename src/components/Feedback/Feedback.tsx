@@ -61,7 +61,7 @@ const Feedback: FC<Feedback> = ({ borderColor, feedbacks }) => {
                 }
               }
             }}
-            className='h-[816px] xl:h-[780px] lg:h-[720px] sm:h-[570px]'
+            className='h-[816px] xl:h-[750px] lg:h-[720px] sm:h-[570px]'
         >
           {Object.entries(feedbacks).map(([feedbackKey, feedbackInfo]) => (
               <SwiperSlide

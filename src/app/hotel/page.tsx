@@ -1,5 +1,5 @@
+import styles from './hotel.module.css'
 import {getContent} from "@/services/content.service";
-import {NextPage} from "next";
 import {Inter} from "next/font/google";
 import {AboutUsBlock} from "@/components/AboutUsBlock";
 import RoomBlock from "@/components/RoomBlock/RoomBlock";
@@ -7,6 +7,7 @@ import Feedback from "@/components/Feedback/Feedback";
 import Image from "next/image";
 import Navigation from "@/components/navigation";
 import AddressIvanovoHotel from "@/components/Address/Address-IvanovoHotel";
+import AddressArtHotel from "@/components/Address/Address-ArtHotel";
 
 const inter = Inter({ subsets: ['latin'], variable: '--var-inter' })
 
@@ -19,7 +20,7 @@ export interface aboutUsBlock {
   text2: string
 }
 
-const aboutUs= [
+const aboutUs: aboutUsBlock[]= [
   {
     image1: "/images/Удобные_спальни_1.jpg",
     image2: "/images/Удобные_спальни_2.jpg",
@@ -54,8 +55,10 @@ const roomsImg = [
   "/images/Люкс.jpg",
 ]
 
-const Subdomain: NextPage = async () => {
-  const content = await getContent()
+const Hotel = async ({params}: {
+  params: {subdomain: string}
+}) => {
+  const content = await getContent(params.subdomain)
 
   const lightBgColor = content.colors.light_bg_color
   const darkBgColor = content.colors.dark_bg_color
@@ -69,17 +72,15 @@ const Subdomain: NextPage = async () => {
 
   // Поменять пути к фоткам из API на путь к ним на сервере
   // Настроить meta
-  // Найти способ чтобы отклчить темную тему, так как белый фон меняется на черный взависимости от темы на устройстве
-  // Решить проблемы из лс с Сашей так же
-  // hover для кнопок убрать focus или полностью убрать на телефоне
-  // в футере увеличить иконки соц сетей
+  // Найти способ чтобы отклчить темную тему, так как белый фон меняется на черный взависимости от темы на устройстве(проверить)
+
   return (
-      <div className='w-full h-full'>
+      <div className={`w-full h-full ${styles.link}`} >
         {/* Header-video */}
         <section
-          className='relative min-h-screen pt-6 px-20 xl:px-14 lg:px-10 md:px-6 600px:px-4 bg-black bg-opacity-40'
-          id='home'
-          >
+            className='relative min-h-screen pt-6 px-20 xl:px-14 lg:px-10 md:px-6 600px:px-4 bg-black bg-opacity-40'
+            id='home'
+        >
           <div className='max-w-[1760px] min-h-screen flex flex-col justify-between mx-auto'>
             <div>
               <div className={`grid grid-cols-[auto_auto_auto] grid-rows-2 justify-between font-bold items-center sm:mb-[23px]`}
@@ -98,22 +99,22 @@ const Subdomain: NextPage = async () => {
                 </button>
               </div>
               {/*Booking-widget*/}
-              <div className='w-full h-[126px] rounded-2xl' style={{ backgroundColor: lightBgColor}}></div>
+              <div className='w-full h-[126px] rounded-2xl mt-[-20px]' style={{ backgroundColor: lightBgColor}}></div>
               {/*Booking-widget*/}
             </div>
             <div className='leading-tight mb-20 lg:mb-10' style={{ color: lightTextColor}}>
               <h1 className='text-8xl font-extrabold xl:text-[80px] lg:text-[64px] md:text-5xl sm:text-[32px] xs:text-2xl'>{content.main.title}</h1>
-              <h3 className='text-[44px] xl:text-4x lg:text-[32px] md:text-2xl 600px:text-xl 2xs:text-[18px]'>{content.main.sub_title}</h3>
+              <h3 className='text-[44px] xl:text-4xl lg:text-[32px] md:text-2xl 600px:text-xl 2xs:text-[18px]'>{content.main.sub_title}</h3>
             </div>
           </div>
-          <video loop muted autoPlay className='absolute top-0 left-0 w-full h-full object-cover -z-10'>
+          <video loop muted autoPlay preload='none' className='absolute top-0 left-0 w-full h-full object-cover -z-10'>
             <source src='/videos/Иваново%20отель.webm'/>
           </video>
         </section>
         {/* About-us */}
         <section id='about-us' className='pt-20 md:pt-14' style={{ backgroundColor: lightBgColor}}>
           <div className='mb-[218px] sm:mb-32 mx-auto max-w-[1920px] px-20 xl:px-14 lg:px-10 md:px-6 600px:px-4'>
-            <p className='flex text-[80px] xl:text-[64px] md:text-[54px] sm:text-[46px] 600px:text-[38px] xs:text-[34px]
+            <p className='flex text-[70px] xl:text-[64px] md:text-[54px] sm:text-[46px] 600px:text-[38px] xs:text-[34px]
             font-bold mb-16 xl:mb-10 sm:mb-9 600px:mb-4'>
               <span style={{ color: secondaryColor}}>/</span>
               <span style={{ color: darkTextColor}}>{content.about_us.title}</span>
@@ -128,7 +129,7 @@ const Subdomain: NextPage = async () => {
         {/* Rooms */}
         <section id='rooms' className='pt-20 pb-[85px] sm:pb-2 md:pt-14' style={{ backgroundColor: darkBgColor}}>
           <div className='px-20 xl:px-14 lg:px-10 md:px-6 600px:px-4 mx-auto max-w-[1920px] mb-[85px]'>
-            <div className='flex text-[80px] xl:text-[64px] md:text-[54px] sm:text-[46px] 600px:text-[38px] xs:text-[32px]
+            <div className='flex text-[70px] xl:text-[64px] md:text-[54px] sm:text-[46px] 600px:text-[38px] xs:text-[32px]
             font-bold mb-16 xl:mb-10 sm:mb-9 600px:mb-4'>
               <span style={{ color: darkSecondaryColor}}>/</span>
               <span style={{ color: lightTextColor}}>{content.rooms.title}</span>
@@ -145,7 +146,7 @@ const Subdomain: NextPage = async () => {
         {/* Feedback */}
         <section id='feedback' className='pt-20 md:pt-14' style={{ backgroundColor: lightBgColor}}>
           <div className='mx-auto max-w-[1920px] px-20 lg:px-10 xl:px-14 md:px-6 600px:px-4'>
-            <div className='flex text-[80px] xl:text-[64px] md:text-[54px] sm:text-[46px] 600px:text-[38px] xs:text-[32px]
+            <div className='flex text-[70px] xl:text-[64px] md:text-[54px] sm:text-[46px] 600px:text-[38px] xs:text-[32px]
              font-bold mb-16 xl:mb-10 sm:mb-9 600px:mb-4'>
               <span style={{ color: secondaryColor}}>/</span>
               <span style={{ color: darkTextColor}}>{content.feedbacks.title}</span>
@@ -158,7 +159,7 @@ const Subdomain: NextPage = async () => {
         {/* Address */}
         <section id='address' className='pt-20 md:pt-14 pb-32 md:pb-16' style={{backgroundColor: content.colors.dark_bg_color}}>
           <div className='max-w-[1920px] mx-auto px-20 xl:px-14 lg:px-10 md:px-6 600px:px-4'>
-            <div className='flex text-[80px] xl:text-[64px] md:text-[54px] sm:text-[46px] 600px:text-[38px] xs:text-[32px]
+            <div className='flex text-[70px] xl:text-[64px] md:text-[54px] sm:text-[46px] 600px:text-[38px] xs:text-[32px]
             font-bold mb-16 xl:mb-10 sm:mb-9 600px:mb-4'>
               <span style={{ color: content.colors.dark_secondary_color}}>/</span>
               <span style={{ color: content.colors.light_text_color}}>{content.address.title}</span>
@@ -169,8 +170,9 @@ const Subdomain: NextPage = async () => {
                    src='/icons/location.svg' alt=''/>
               {content.address.address}
             </p>
-            {/*Сдлеать проверку*/}
-            {<AddressIvanovoHotel/>}
+            <div>
+              {content.main.title === '#ИВАНОВООТЕЛЬ' ? <AddressIvanovoHotel></AddressIvanovoHotel> : <AddressArtHotel></AddressArtHotel>}
+            </div>
           </div>
         </section>
         {/*Footer*/}
@@ -182,17 +184,17 @@ const Subdomain: NextPage = async () => {
               <Navigation/>
               <div className='flex flex-col gap-4 sm:gap-2 sm:row-span-2 sm:row-start-3'>
                 <p className='font-bold underline'>#ИВАНОВООТЕЛЬ</p>
-                  <a href="">Политика конфиденциальности</a>
-                  <a href="">Публичная оферта</a>
+                <a href="">Политика конфиденциальности</a>
+                <a href="">Публичная оферта</a>
               </div>
               <div className='flex flex-col gap-4 sm:gap-2 sm:col-start-2 sm:row-start-1'>
                 <p className='font-bold underline'>Связь с нами</p>
-                  <a href="tel:+74932939977">+7 (4932) 93-99-77</a>
-                  <a href="mailto:ivanovohotel@inbox.ru">ivanovohotel@inbox.ru</a>
+                <a href="tel:+74932939977">+7 (4932) 93-99-77</a>
+                <a href="mailto:ivanovohotel@inbox.ru">ivanovohotel@inbox.ru</a>
               </div>
-              <div className='flex gap-[70px] lg:gap-12 sm:gap-4 xl:[&>a]:w-14 xl:[&>a]:h-14 md:[&>a]:w-8 md:[&>a]:h-8
+              <div className='flex gap-[70px] lg:gap-12 sm:gap-4 xl:[&>a]:w-14 xl:[&>a]:h-14 md:[&>a]:w-10 md::h-10 sm:[&>a]:w-8 sm:[&>a]:h-8
               col-start-1 col-end-2 sm:col-start-2 sm:row-start-2 xs:grid xs:grid-cols-2 xs:grid-rows-6 xs:gap-y-12 mx-auto'>
-                <a href=''><Image src='/icons/vk-icon.svg' alt='' width={80} height={80} className=''></Image></a>
+                <a href=''><Image src='/icons/vk-icon.svg' alt='' width={80} height={80} className='outline-transparent'></Image></a>
                 <a href=''><Image src='/icons/class-icon.svg' alt='' width={80} height={80}></Image></a>
                 <a href=''><Image src='/icons/fb-icon.svg' alt='' width={80} height={80}></Image></a>
                 <a href=''><Image src='/icons/inst-icon.svg' alt='' width={80} height={80}></Image></a>
@@ -204,4 +206,4 @@ const Subdomain: NextPage = async () => {
   );
 };
 
-export default Subdomain;
+export default Hotel;

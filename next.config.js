@@ -1,8 +1,22 @@
-/** @type {import('next').NextConfig} */
-
+// next.config.js
 module.exports = {
-  // async redirects() {
-  //   const { redirectMiddleware } = await import('./src/middleware/redirectMiddleware');
-  //   return redirectMiddleware;
-  // },
+  async redirects() {
+    return [
+      {
+        source: '/:subdomain(ivanovohotel)/:path*',
+        destination: 'https://ivanovohotel.ivhg.ru/hotel',
+        permanent: true,
+      },
+      {
+        source: '/:subdomain(arthotel)/:path*',
+        destination: 'https://arthotel.ivhg.ru/hotel',
+        permanent: true,
+      },
+      {
+        source: '/:domain(ivhg)',
+        destination: 'https://ivhg.ru/hotel-selection',
+        permanent: true,
+      },
+    ];
+  },
 };

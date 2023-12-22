@@ -10,5 +10,5 @@
   height: 21px;
   background: black;
   margin: 0 20px !important;
-  @apply lg:w-4 lg:h-4 lg:mx-3 md:w-3 md:h-3 xs:w-[10px] xs:h-[10px] #{!important}
+  @apply xl:w-[18px] xl:h-[18px] lg:w-4 lg:h-4 lg:mx-3 md:w-3 md:h-3 xs:w-[10px] xs:h-[10px] #{!important}
 }
