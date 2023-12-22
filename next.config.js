@@ -3,17 +3,17 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/:subdomain(ivanovohotel)/:path*',
+        source: 'https://ivanovohotel.ivhg.ru/:path*',
         destination: 'https://ivanovohotel.ivhg.ru/hotel',
         permanent: true,
       },
       {
-        source: '/:subdomain(arthotel)/:path*',
+        source: 'https://arthotel.ivhg.ru/:path*',
         destination: 'https://arthotel.ivhg.ru/hotel',
         permanent: true,
       },
       {
-        source: '/:domain(ivhg)',
+        source: 'https://ivhg.ru/',
         destination: 'https://ivhg.ru/hotel-selection',
         permanent: true,
       },
