@@ -10,11 +10,12 @@ import AddressIvanovoHotel from "@/components/Address/Address-IvanovoHotel";
 import AddressArtHotel from "@/components/Address/Address-ArtHotel";
 import {aboutUs} from "@/constants/abouUsLinks";
 import {roomsImg} from "@/constants/roomImgLinks";
-import {Metadata} from "next";
+import {Metadata, ResolvingMetadata} from "next";
+import {metaProps} from "@/interfaces/metaProps.interfaec";
 
 const inter = Inter({ subsets: ['latin'], variable: '--var-inter' })
 
-export async function generateMetadata(params: {subdomain: string}): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: metaProps, parent: ResolvingMetadata): Promise<Metadata> {
 
   const content = await getContent(params.subdomain)
 
