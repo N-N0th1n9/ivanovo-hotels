@@ -5,55 +5,28 @@ import {AboutUsBlock} from "@/components/AboutUsBlock";
 import RoomBlock from "@/components/RoomBlock/RoomBlock";
 import Feedback from "@/components/Feedback/Feedback";
 import Image from "next/image";
-import Navigation from "@/components/navigation";
+import Navigation from "@/components/Navigation";
 import AddressIvanovoHotel from "@/components/Address/Address-IvanovoHotel";
 import AddressArtHotel from "@/components/Address/Address-ArtHotel";
+import {aboutUs} from "@/constants/abouUsLinks";
+import {roomsImg} from "@/constants/roomImgLinks";
+import {Metadata} from "next";
 
 const inter = Inter({ subsets: ['latin'], variable: '--var-inter' })
 
-export interface aboutUsBlock {
-  image1: string
-  image2: string
-  icon1: string
-  icon2: string
-  text1: string
-  text2: string
-}
+export async function generateMetadata(params: {subdomain: string}): Promise<Metadata> {
 
-const aboutUs: aboutUsBlock[]= [
-  {
-    image1: "/images/Удобные_спальни_1.jpg",
-    image2: "/images/Удобные_спальни_2.jpg",
-    icon1: "/icons/bed.svg",
-    icon2: "/icons/wifi.svg",
-    text1: "Удобные спальни",
-    text2: "Бесплатный wi-fi"
-  },
-  {
-    image1: "/images/Уборка_номеров_1.jpg",
-    image2: "/images/Уборка_номеров_2.jpg",
-    icon1: "/icons/clear.svg",
-    icon2: "/icons/dishes.svg",
-    text1: "Регулярная уборка",
-    text2: "Еда к вам в номер"
-  },
-  {
-    image1: "/images/Высокий_уровень_безопасности_1.jpg",
-    image2: "/images/Высокий_уровень_безопасности_2.jpg",
-    icon1: "/icons/car.png",
-    icon2: "/icons/protect.svg",
-    text1: "Бесплатный охраняемый паркинг",
-    text2: "Высокий уровень безопасности"
+  const content = await getContent(params.subdomain)
+
+  return {
+    title: content.main.title.substring(1),
+    description: 'Отличный отель в Иваново с потрясающими условиями на любой вкус. Отдых в Иваново',
+    keywords: [`${content.main.title.substring(1).toLowerCase()}`, 'отель', 'Иваново', 'Люкс', 'Cемейный', 'Отдых'],
+    openGraph: {
+      images: ['public/images/Люкс.jpg'],
+    },
   }
-]
-
-const roomsImg = [
-  "/images/Стандарт_с_большой_кроватью.jpg",
-  "/images/Стандарт_с_раздельными_кроватями.jpg",
-  "/images/Стандарт_трехместный.jpg",
-  "/images/Семейный.jpg",
-  "/images/Люкс.jpg",
-]
+}
 
 const Hotel = async ({params}: {
   params: {subdomain: string}
@@ -71,12 +44,10 @@ const Hotel = async ({params}: {
   const rooms = content.rooms.blocks
 
   // Поменять пути к фоткам из API на путь к ним на сервере
-  // Настроить meta
-  // Найти способ чтобы отклчить темную тему, так как белый фон меняется на черный взависимости от темы на устройстве(проверить)
-  // Сделать без hotel
 
   return (
       <div className={`w-full h-full ${styles.link}`} >
+
         {/* Header-video */}
         <section
             className='relative min-h-screen pt-6 px-20 xl:px-14 lg:px-10 md:px-6 600px:px-4 bg-black bg-opacity-40'
@@ -86,8 +57,8 @@ const Hotel = async ({params}: {
             <div>
               <div className={`grid grid-cols-[auto_auto_auto] grid-rows-2 justify-between font-bold items-center sm:mb-[23px]`}
                    style={{ color: lightTextColor}}>
-                <a href='tel:+74932939977' className='text-[22px] lg:text-lg sm:text-base xs:text-sm 2xs:text-xs font-medium sm:row-start-2'>
-                  {content.main.phone}
+                <a href={`tel:${content.footer.tel}`} className='text-[22px] lg:text-lg sm:text-base xs:text-sm 2xs:text-xs font-medium sm:row-start-2'>
+                  {content.footer.tel}
                 </a>
                 <span className={`text-xl lg:text-lg sm:text-base xs:text-sm 2xs:text-xs sm:row-start-1 ${inter.variable}`}>
                   {content.main.title}
@@ -99,9 +70,11 @@ const Hotel = async ({params}: {
                 >выбрать номер
                 </button>
               </div>
+
               {/*Booking-widget*/}
               <div className='w-full h-[126px] rounded-2xl mt-[-20px] sm:mt-0' style={{ backgroundColor: lightBgColor}}></div>
               {/*Booking-widget*/}
+
             </div>
             <div className='leading-tight mb-20 lg:mb-10' style={{ color: lightTextColor}}>
               <h1 className='text-8xl font-extrabold xl:text-[80px] lg:text-[64px] md:text-5xl sm:text-[32px] xs:text-2xl'>{content.main.title}</h1>
@@ -112,6 +85,7 @@ const Hotel = async ({params}: {
             <source src='/videos/Иваново%20отель.webm'/>
           </video>
         </section>
+
         {/* About-us */}
         <section id='about-us' className='pt-20 md:pt-14' style={{ backgroundColor: lightBgColor}}>
           <div className='mb-[218px] sm:mb-32 mx-auto max-w-[1920px] px-20 xl:px-14 lg:px-10 md:px-6 600px:px-4'>
@@ -127,6 +101,7 @@ const Hotel = async ({params}: {
             </div>
           </div>
         </section>
+
         {/* Rooms */}
         <section id='rooms' className='pt-20 pb-[85px] sm:pb-2 md:pt-14' style={{ backgroundColor: darkBgColor}}>
           <div className='px-20 xl:px-14 lg:px-10 md:px-6 600px:px-4 mx-auto max-w-[1920px] mb-[85px]'>
@@ -144,6 +119,7 @@ const Hotel = async ({params}: {
             </div>
           </div>
         </section>
+
         {/* Feedback */}
         <section id='feedback' className='pt-20 md:pt-14' style={{ backgroundColor: lightBgColor}}>
           <div className='mx-auto max-w-[1920px] px-20 lg:px-10 xl:px-14 md:px-6 600px:px-4'>
@@ -157,6 +133,7 @@ const Hotel = async ({params}: {
             </div>
           </div>
         </section>
+
         {/* Address */}
         <section id='address' className='pt-20 md:pt-14 pb-32 md:pb-16' style={{backgroundColor: content.colors.dark_bg_color}}>
           <div className='max-w-[1920px] mx-auto px-20 xl:px-14 lg:px-10 md:px-6 600px:px-4'>
@@ -176,6 +153,7 @@ const Hotel = async ({params}: {
             </div>
           </div>
         </section>
+
         {/*Footer*/}
         <section className='border-t py-20 sm:pt-12 sm:pb-0 text-3xl font-light xl:text-2xl md:text-lg sm:text-sm'
                  style={{backgroundColor: darkBgColor, color: lightTextColor, borderColor:`${lightBgColor}20`}}>
@@ -184,14 +162,14 @@ const Hotel = async ({params}: {
                   gap-x-16 lg:gap-x-8 xs:gap-x-0 justify-between gap-y-20 sm:gap-y-14 xs:gap-y-24'>
               <Navigation/>
               <div className='flex flex-col gap-4 sm:gap-2 sm:row-span-2 sm:row-start-3'>
-                <p className='font-bold underline'>#ИВАНОВООТЕЛЬ</p>
+                <p className='font-bold underline'>{content.main.title}</p>
                 <a href="">Политика конфиденциальности</a>
                 <a href="">Публичная оферта</a>
               </div>
               <div className='flex flex-col gap-4 sm:gap-2 sm:col-start-2 sm:row-start-1'>
                 <p className='font-bold underline'>Связь с нами</p>
-                <a href="tel:+74932939977">+7 (4932) 93-99-77</a>
-                <a href="mailto:ivanovohotel@inbox.ru">ivanovohotel@inbox.ru</a>
+                <a href={`tel:${content.footer.tel}`}>{content.footer.tel}</a>
+                <a href={`mailto:${content.footer.email}`}>{content.footer.email}</a>
               </div>
               <div className='flex gap-[70px] lg:gap-12 sm:gap-4 xl:[&>a]:w-14 xl:[&>a]:h-14 md:[&>a]:w-10 md::h-10 sm:[&>a]:w-8 sm:[&>a]:h-8
               col-start-1 col-end-2 sm:col-start-2 sm:row-start-2 xs:grid xs:grid-cols-2 xs:grid-rows-6 xs:gap-y-12 mx-auto'>

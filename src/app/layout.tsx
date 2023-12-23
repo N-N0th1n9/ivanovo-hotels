@@ -6,8 +6,9 @@ import React from "react";
 const nunito = Nunito_Sans({ subsets: ['latin'], variable: '--var-nunito' })
 
 export const metadata: Metadata = {
-  title: 'Ivanovo Hotels',
-  description: '...',
+  title: 'Hotel',
+  description: 'Отличный отель в городе Иваново',
+  keywords: ['Ивановоотель', 'Артотель', 'Ivanovootel', 'Arthotel']
 }
 
 export default function RootLayout({

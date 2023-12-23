@@ -6,7 +6,7 @@ import { Autoplay} from 'swiper/modules';
 import 'swiper/css';
 import { useInView } from 'react-intersection-observer';
 import {FC, useEffect, useRef} from "react";
-import {aboutUsBlock} from "@/app/page";
+import {aboutUsBlock} from "@/interfaces/aboutUsLinks.interfaces";
 
 interface AboutUsBlockProps {
   item: aboutUsBlock

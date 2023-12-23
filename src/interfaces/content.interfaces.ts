@@ -64,6 +64,13 @@ type AddressInfo = {
   address: string
 };
 
+type Footer = {
+  tel: 'string'
+  email: 'string'
+  vk: 'string'
+  class: 'string'
+}
+
 export type HotelData = {
   colors: Color
   main: MainInfo
@@ -71,4 +78,5 @@ export type HotelData = {
   rooms: RoomsInfo
   feedbacks: Feedbacks
   address: AddressInfo
+  footer: Footer
 };

@@ -10,7 +10,7 @@ export const getContent = async (subdomain: string): Promise<HotelData> => {
   let API_URL = '';
 
   if (domain === 'localhost:3000') {
-    API_URL = 'http://94.241.138.67:8000/api/v1/test/hotel1';
+    API_URL = 'http://94.241.138.67:8000/api/v1/test/hotel2';
   } else if (domain === 'localhost:3000') {
     API_URL = 'http://94.241.138.67:8000/api/v1/test/hotel2';
   }

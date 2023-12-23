@@ -1,4 +1,11 @@
 import Link from "next/link";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: 'Hotels',
+  description: 'Страница с выбора одного из ивановских отелей: Ивановоотель и Артотель. Хорошие отели Иваново',
+  keywords: ['Ивановоотель', 'Артотель', 'Ivanovootel', 'Artotel', 'Ивановские отели', 'Хорошие отели', 'Отличные отели']
+}
 
 const HotelSelection = () => {
   return (
@@ -8,10 +15,10 @@ const HotelSelection = () => {
            [&>div]:font-black [&>div]:h-[110px] sm:[&>div]:h-[85px] w-[1254px] justify-center [&>div]:text-center [&>div]:rounded-[10px]
            gap-10 [&>div]:transition [&>div]:max-w-[607px] lg:w-full'>
           <div className='bg-[#0C2722] text-white hover:bg-[#869391] w-full h-full'>
-            <Link href='https://arthotel.ivhg.ru/hotel' className='h-full flex justify-center items-center'>#АРТОТЕЛЬ</Link>
+            <Link href='https://arthotel.ivhg.ru' className='h-full flex justify-center items-center'>#АРТОТЕЛЬ</Link>
           </div>
           <div className='bg-transparent border-black border hover:text-[#869391] w-full'>
-            <Link href='https://ivanovohotel.ivhg.ru/hotel' className='h-full flex justify-center items-center'>#ИВАНОВООТЕЛЬ</Link>
+            <Link href='https://ivanovohotel.ivhg.ru' className='h-full flex justify-center items-center'>#ИВАНОВООТЕЛЬ</Link>
           </div>
         </div>
       </div>

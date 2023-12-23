@@ -6,7 +6,7 @@ interface FeedbackProps {
   feedbackInfo: FeedbacksInfo
 }
 
-const FeedbackBlock: FC<FeedbackProps> = ({borderColor, feedbackInfo}) => {
+const FeedbackBlock: FC<FeedbackProps> = ({feedbackInfo}) => {
   return (
       <div className='max-w-[640px] h-[650px] 2xl:h-[600px] xl:h-[550px] sm:h-[400px] 600px:h-[483px] border-[1px]
       text-2xl 2xl:text-xl xl:text-base xs:text-[14px] font-light shadow-2xl 600px:shadow-xl z-10 rounded-xl overflow-hidden border-[#B7B6B6]'>
