@@ -173,8 +173,8 @@ const Hotel = async ({params}: {
               </div>
               <div className='flex gap-[70px] lg:gap-12 sm:gap-4 xl:[&>a]:w-14 xl:[&>a]:h-14 md:[&>a]:w-10 md::h-10 sm:[&>a]:w-8 sm:[&>a]:h-8
               col-start-1 col-end-2 sm:col-start-2 sm:row-start-2 xs:grid xs:grid-cols-2 xs:grid-rows-6 xs:gap-y-12 mx-auto'>
-                <a href=''><Image src='/icons/vk-icon.svg' alt='' width={80} height={80} className='outline-transparent'></Image></a>
-                <a href=''><Image src='/icons/class-icon.svg' alt='' width={80} height={80}></Image></a>
+                <a href={`${content.footer.vk}`}><Image src='/icons/vk-icon.svg' alt='' width={80} height={80} className='outline-transparent'></Image></a>
+                <a href={`${content.footer.class}`}><Image src='/icons/class-icon.svg' alt='' width={80} height={80}></Image></a>
                 <a href=''><Image src='/icons/fb-icon.svg' alt='' width={80} height={80}></Image></a>
                 <a href=''><Image src='/icons/inst-icon.svg' alt='' width={80} height={80}></Image></a>
               </div>
