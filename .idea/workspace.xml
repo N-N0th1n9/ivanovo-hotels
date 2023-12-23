@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="471ccbcc-b6eb-42a0-bbf1-cfc11e4c49a2" name="Changes" comment="pre-alfa fix">
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/content.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/content.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <workItem from="1703094366352" duration="8293000" />
       <workItem from="1703166932616" duration="7420000" />
       <workItem from="1703263641652" duration="17388000" />
-      <workItem from="1703342530303" duration="7648000" />
+      <workItem from="1703342530303" duration="7732000" />
     </task>
     <task id="LOCAL-00001" summary="pre-alfa fix">
       <option name="closed" value="true" />
