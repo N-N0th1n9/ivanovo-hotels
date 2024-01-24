@@ -7,7 +7,7 @@ export const getContent = async (subdomain: string): Promise<HotelData> => {
   const headersList = headers();
   const domain = headersList.get('host') || "";
 
-  let API_URL = '';
+  let API_URL = 'http://94.241.138.67:8000/api/v1/test/hotel1';
 
   if (domain === 'ivanovohotel.ivhg.ru') {
     API_URL = 'http://94.241.138.67:8000/api/v1/test/hotel1';

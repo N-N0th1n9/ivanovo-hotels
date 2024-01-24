@@ -43,10 +43,10 @@ export const AboutUsBlock: FC<AboutUsBlockProps> = ({item, color}) => {
             ref={swiperRef}
         >
           <SwiperSlide>
-            <Image src={item.image1} alt='' width={1760} height={813} className='sm:min-h-[234px] xs:min-h-[185px] object-cover '/>
+            <Image src={item.image1} alt='Демонстрация номера' width={1760} height={813} className='sm:min-h-[234px] xs:min-h-[185px] object-cover '/>
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={item.image2} alt='' width={1760} height={813} className='sm:min-h-[234px] xs:min-h-[185px] object-cover'/>
+            <Image src={item.image2} alt='Демонстрация номера' width={1760} height={813} className='sm:min-h-[234px] xs:min-h-[185px] object-cover'/>
           </SwiperSlide>
         </Swiper>
       </div>

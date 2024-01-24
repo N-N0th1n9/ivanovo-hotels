@@ -7,6 +7,8 @@
     <list default="true" id="471ccbcc-b6eb-42a0-bbf1-cfc11e4c49a2" name="Changes" comment="pre-alfa fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutUsBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUsBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RoomBlock/RoomBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomBlock/RoomBlock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/content.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/content.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +111,15 @@
       <workItem from="1703094366352" duration="8293000" />
       <workItem from="1703166932616" duration="7420000" />
       <workItem from="1703263641652" duration="17388000" />
-      <workItem from="1703342530303" duration="8955000" />
+      <workItem from="1703342530303" duration="11199000" />
+      <workItem from="1703417339136" duration="2495000" />
+      <workItem from="1703431758348" duration="778000" />
+      <workItem from="1703687615539" duration="154000" />
+      <workItem from="1703857157811" duration="9000" />
+      <workItem from="1704741150686" duration="685000" />
+      <workItem from="1704743066416" duration="20000" />
+      <workItem from="1705775950525" duration="549000" />
+      <workItem from="1706086813019" duration="209000" />
     </task>
     <task id="LOCAL-00001" summary="pre-alfa fix">
       <option name="closed" value="true" />

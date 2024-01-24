@@ -18,7 +18,7 @@ const RoomBlock: FC<RoomProps> = ({room, image, btnText, bg}) => {
         <div className={`w-full flex gap-16 py-16 pl-16 pr-12 rounded-2xl 3xl:pl-14 3xl:pr-11
           max-w-[1900px]:pr-4 max-w-[1900px]:pl-2 ${styles.subBlock}`} style={{backgroundColor: `${bg}10`}}>
           <div className={`-my-[83px] basis-[80%] flex ${styles.img}`}>
-            <Image src={image} alt='' width={887} height={708} className={`rounded-xl`}/>
+            <Image src={image} alt='Номер в отеле' width={887} height={708} className={`rounded-xl`}/>
           </div>
           <div className={`text-2xl basis-[60%] flex flex-col justify-between max-h-[541px] ${styles.textBlock}`}>
             <div style={{color: bg}}>

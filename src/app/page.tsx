@@ -20,9 +20,9 @@ export async function generateMetadata({ params, searchParams }: metaProps, pare
   const content = await getContent(params.subdomain)
 
   return {
-    title: content.main.title.substring(1),
-    description: 'Отличный отель в Иваново с потрясающими условиями на любой вкус. Отдых в Иваново',
-    keywords: [`${content.main.title.substring(1).toLowerCase()}`, 'отель', 'Иваново', 'Люкс', 'Cемейный', 'Отдых'],
+    title: content.main.title.substring(1) + " - отель в Иваново",
+    description: 'Отличный отель в Иваново с потрясающими условиями на любой вкус. Отдых здесь запомнится на долгие годы. Один из сети отелей Ивановоотель и Артотель.',
+    keywords: [`${content.main.title.substring(1).toLowerCase()}`, 'отель', 'иваново', 'люкс', 'семейный', 'отдых'],
     openGraph: {
       images: ['public/images/Люкс.jpg'],
     },
@@ -43,8 +43,6 @@ const Hotel = async ({params}: {
   const darkTextColor = content.colors.dark_text_color
 
   const rooms = content.rooms.blocks
-
-  // Поменять пути к фоткам из API на путь к ним на сервере
 
   return (
       <div className={`w-full h-full ${styles.link}`} >
@@ -79,7 +77,7 @@ const Hotel = async ({params}: {
             </div>
             <div className='leading-tight mb-20 lg:mb-10' style={{ color: lightTextColor}}>
               <h1 className='text-8xl font-extrabold xl:text-[80px] lg:text-[64px] md:text-5xl sm:text-[32px] xs:text-2xl'>{content.main.title}</h1>
-              <h3 className='text-[44px] xl:text-4xl lg:text-[32px] md:text-2xl 600px:text-xl 2xs:text-[18px]'>{content.main.sub_title}</h3>
+              <h2 className='text-[44px] xl:text-4xl lg:text-[32px] md:text-2xl 600px:text-xl 2xs:text-[18px]'>{content.main.sub_title}</h2>
             </div>
           </div>
           <video loop muted autoPlay className='absolute top-0 left-0 w-full h-full object-cover -z-10'>
