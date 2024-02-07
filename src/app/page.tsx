@@ -12,6 +12,8 @@ import {aboutUs} from "@/constants/abouUsLinks";
 import {roomsImg} from "@/constants/roomImgLinks";
 import {Metadata, ResolvingMetadata} from "next";
 import {metaProps} from "@/interfaces/metaProps.interfaec";
+import {headers} from "next/headers";
+import {log} from "node:util";
 
 const inter = Inter({ subsets: ['latin'], variable: '--var-inter' })
 
@@ -44,9 +46,17 @@ const Hotel = async ({params}: {
 
   const rooms = content.rooms.blocks
 
+  const headersList = headers();
+  const domain = headersList.get('host') || "";
+
+  let tlScenario = 'tl-search-form-9193';
+
+  if (domain === 'arthotel.ivhg.ru') {
+    tlScenario = 'tl-search-form-14699';
+  }
+
   return (
       <div className={`w-full h-full ${styles.link}`} >
-
         {/* Header-video */}
         <section
             className='relative min-h-screen pt-6 px-20 xl:px-14 lg:px-10 md:px-6 600px:px-4 bg-black bg-opacity-40'
@@ -69,15 +79,22 @@ const Hotel = async ({params}: {
                 >выбрать номер
                 </button>
               </div>
-
               {/*Booking-widget*/}
-              <div className='w-full h-[126px] rounded-2xl mt-[-20px] sm:mt-0' style={{ backgroundColor: lightBgColor}}></div>
+              <div className='w-full h-[126px] rounded-2xl mt-[-20px] sm:mt-0' style={{backgroundColor: lightBgColor,display: "none"}}>
+              </div>
               {/*Booking-widget*/}
-
             </div>
-            <div className='leading-tight mb-20 lg:mb-10' style={{ color: lightTextColor}}>
+            <div className='leading-tight mb-20 lg:mb-10' style={{color: lightTextColor}}>
               <h1 className='text-8xl font-extrabold xl:text-[80px] lg:text-[64px] md:text-5xl sm:text-[32px] xs:text-2xl'>{content.main.title}</h1>
               <h2 className='text-[44px] xl:text-4xl lg:text-[32px] md:text-2xl 600px:text-xl 2xs:text-[18px]'>{content.main.sub_title}</h2>
+              {/*Booking-widget*/}
+              <div id='block-search' className='w-full rounded-2xl' style={{backgroundColor: lightBgColor,marginTop: "30px"}}>
+                <div id={tlScenario} className='tl-container' style={{padding: "0 30px"}}>
+                  <noindex><a href='https://www.travelline.ru/products/tl-hotel/' rel='nofollow'
+                              target='_blank'>TravelLine</a></noindex>
+                </div>
+              </div>
+              {/*Booking-widget*/}
             </div>
           </div>
           <video loop muted autoPlay className='absolute top-0 left-0 w-full h-full object-cover -z-10'>
@@ -109,7 +126,7 @@ const Hotel = async ({params}: {
               <span style={{ color: darkSecondaryColor}}>/</span>
               <span style={{ color: lightTextColor}}>{content.rooms.title}</span>
             </div>
-            <div className='flex flex-col gap-[85px] lg:gap-12'>
+            <div className='flex flex-col gap-[85px] lg:gap-12 111'>
               {Object.entries(rooms).map(([roomKey, roomInfo], idx) => (
                   <div key={roomKey}>
                     <RoomBlock room={roomInfo} image={roomsImg[idx]} btnText={content.rooms.button} bg={content.colors.light_bg_color}></RoomBlock>
