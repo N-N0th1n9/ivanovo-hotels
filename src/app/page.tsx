@@ -22,7 +22,7 @@ export async function generateMetadata({ params, searchParams }: metaProps, pare
   const content = await getContent(params.subdomain)
 
   return {
-    title: content.main.title.substring(1) + " - отель в Иваново",
+    title: content.main.title.substring(1) + " - отель в Иваново, официальный сайт",
     description: 'Отличный отель в Иваново с потрясающими условиями на любой вкус. Отдых здесь запомнится на долгие годы. Один из сети отелей Ивановоотель и Артотель.',
     keywords: [`${content.main.title.substring(1).toLowerCase()}`, 'отель', 'иваново', 'люкс', 'семейный', 'отдых'],
     openGraph: {
@@ -49,10 +49,10 @@ const Hotel = async ({params}: {
   const headersList = headers();
   const domain = headersList.get('host') || "";
 
-  let tlScenario = 'tl-search-form-9193';
+  let tlScenario = 'tl-search-form-14699';
 
   if (domain === 'arthotel.ivhg.ru') {
-    tlScenario = 'tl-search-form-14699';
+    tlScenario = 'tl-search-form-9193';
   }
 
   return (
@@ -75,7 +75,7 @@ const Hotel = async ({params}: {
                 <button className='border-[1px] font-medium px-12 py-4 text-xl lg:text-base sm:text-sm 2xs:text-xs rounded-[10px]
                         outline-none lg:px-8 lg:py-3 sm:px-[22.5px] xs:px-3 xs:py-2 max-w-[246px] sm:row-span-2 sm:col-start-3
                         hover:bg-white hover:!text-black transition'
-                        style={{ borderColor: lightBgColor, color: lightTextColor}}
+                        style={{ borderColor: lightBgColor, color: lightTextColor}} data-tl-booking-open="true"
                 >выбрать номер
                 </button>
               </div>
