@@ -4,6 +4,7 @@ import {RoomInfo} from "@/interfaces/content.interfaces";
 import {FC} from "react";
 import Image from "next/image";
 import styles from './RoomBlock.module.scss'
+import {headers} from "next/headers";
 
 interface RoomProps {
   room: RoomInfo,
@@ -11,6 +12,7 @@ interface RoomProps {
   bg: string
   btnText: string,
 }
+
 
 const RoomBlock: FC<RoomProps> = ({room, image, btnText, bg}) => {
   return (
@@ -32,7 +34,12 @@ const RoomBlock: FC<RoomProps> = ({room, image, btnText, bg}) => {
             </div>
             <button className={`px-[75px] text-black py-4 font-bold rounded-xl w-[80%] max-w-[416px] bg-white border-white
                     border-[1px] border-darkPurple hover:bg-darkPurple hover:border-darkPurple hover:text-white hover:bg-transparent transition
-                    ${styles.button}`}>{btnText}</button>
+                    ${styles.button}`} data-tl-booking-open="true">{btnText}
+            </button>
+            {/*<button className={`px-[75px] text-black py-4 font-bold rounded-xl w-[80%] max-w-[416px] bg-white border-white*/}
+            {/*        border-[1px] border-darkPurple hover:bg-darkPurple hover:border-darkPurple hover:text-white hover:bg-transparent transition*/}
+            {/*        ${styles.button}`} data-tl-booking-open="true" data-tl-room={room.room_type}>{btnText}*/}
+            {/*</button>*/}
           </div>
         </div>
       </div>
