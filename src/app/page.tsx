@@ -79,22 +79,19 @@ const Hotel = async ({params}: {
                 >выбрать номер
                 </button>
               </div>
+
               {/*Booking-widget*/}
-              <div className='w-full h-[126px] rounded-2xl mt-[-20px] sm:mt-0' style={{backgroundColor: lightBgColor,display: "none"}}>
-              </div>
-              {/*Booking-widget*/}
-            </div>
-            <div className='leading-tight mb-20 lg:mb-10' style={{color: lightTextColor}}>
-              <h1 className='text-8xl font-extrabold xl:text-[80px] lg:text-[64px] md:text-5xl sm:text-[32px] xs:text-2xl'>{content.main.title}</h1>
-              <h2 className='text-[44px] xl:text-4xl lg:text-[32px] md:text-2xl 600px:text-xl 2xs:text-[18px]'>{content.main.sub_title}</h2>
-              {/*Booking-widget*/}
-              <div id='block-search' className='w-full rounded-2xl' style={{backgroundColor: lightBgColor,marginTop: "30px"}}>
+              <div id='block-search' className='w-full rounded-2xl' style={{backgroundColor: lightBgColor}}>
                 <div id={tlScenario} className='tl-container' style={{padding: "0 30px"}}>
                   <noindex><a href='https://www.travelline.ru/products/tl-hotel/' rel='nofollow'
                               target='_blank'>TravelLine</a></noindex>
                 </div>
               </div>
-              {/*Booking-widget*/}
+
+            </div>
+            <div className='leading-tight mb-20 lg:mb-10' style={{color: lightTextColor}}>
+              <h1 className='text-8xl font-extrabold xl:text-[80px] lg:text-[64px] md:text-5xl sm:text-[32px] xs:text-2xl'>{content.main.title}</h1>
+              <h2 className='text-[44px] xl:text-4xl lg:text-[32px] md:text-2xl 600px:text-xl 2xs:text-[18px]'>{content.main.sub_title}</h2>
             </div>
           </div>
           <video loop muted autoPlay className='absolute top-0 left-0 w-full h-full object-cover -z-10'>
