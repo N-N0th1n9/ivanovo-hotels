@@ -50,9 +50,11 @@ const Hotel = async ({params}: {
   const domain = headersList.get('host') || "";
 
   let tlScenario = 'tl-search-form-14699';
+  let tlScenarioBtn = '14699';
 
   if (domain === 'arthotel.ivhg.ru') {
     tlScenario = 'tl-search-form-9193';
+    tlScenarioBtn = '9193';
   }
 
   return (
@@ -75,7 +77,7 @@ const Hotel = async ({params}: {
                 <button className='border-[1px] font-medium px-12 py-4 text-xl lg:text-base sm:text-sm 2xs:text-xs rounded-[10px]
                         outline-none lg:px-8 lg:py-3 sm:px-[22.5px] xs:px-3 xs:py-2 max-w-[246px] sm:row-span-2 sm:col-start-3
                         hover:bg-white hover:!text-black transition'
-                        style={{ borderColor: lightBgColor, color: lightTextColor}} data-tl-booking-open="true"
+                        style={{ borderColor: lightBgColor, color: lightTextColor}} data-tl-booking-open="true" data-tl-booking-scenario={tlScenarioBtn}
                 >выбрать номер
                 </button>
               </div>
