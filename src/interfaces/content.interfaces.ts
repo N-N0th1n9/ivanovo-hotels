@@ -26,6 +26,7 @@ type RoomFeatures = string[]
 export type RoomInfo = {
   title: string
   short_description: string
+  'room-type': string
   features: RoomFeatures
 };
 
