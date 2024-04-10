@@ -15,6 +15,7 @@ interface RoomProps {
 
 
 const RoomBlock: FC<RoomProps> = ({room, image, btnText, bg}) => {
+
   return (
       <div className={`py-5 ${styles.mainBlock}`}>
         <div className={`w-full flex gap-16 py-16 pl-16 pr-12 rounded-2xl 3xl:pl-14 3xl:pr-11
@@ -34,12 +35,8 @@ const RoomBlock: FC<RoomProps> = ({room, image, btnText, bg}) => {
             </div>
             <button className={`px-[75px] text-black py-4 font-bold rounded-xl w-[80%] max-w-[416px] bg-white border-white
                     border-[1px] border-darkPurple hover:bg-darkPurple hover:border-darkPurple hover:text-white hover:bg-transparent transition
-                    ${styles.button}`} data-tl-booking-open="true">{btnText}
+                    ${styles.button}`} data-tl-booking-open="true" data-tl-room={room["room-type"]}>{btnText}
             </button>
-            {/*<button className={`px-[75px] text-black py-4 font-bold rounded-xl w-[80%] max-w-[416px] bg-white border-white*/}
-            {/*        border-[1px] border-darkPurple hover:bg-darkPurple hover:border-darkPurple hover:text-white hover:bg-transparent transition*/}
-            {/*        ${styles.button}`} data-tl-booking-open="true" data-tl-room={room.room_type}>{btnText}*/}
-            {/*</button>*/}
           </div>
         </div>
       </div>
