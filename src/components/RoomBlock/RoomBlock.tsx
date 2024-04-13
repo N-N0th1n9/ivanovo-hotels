@@ -12,7 +12,6 @@ interface RoomProps {
   bg: string
   btnText: string,
   tlScenarioBtn: string
-
 }
 
 

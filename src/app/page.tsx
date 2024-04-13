@@ -52,7 +52,10 @@ const Hotel = async ({params}: {
   let tlScenario = 'tl-search-form-14699';
   let tlScenarioBtn = '14699';
 
-  if (domain === 'arthotel.ivhg.ru') {
+  if (domain === 'ivanovohotel.ivhg.ru') {
+    tlScenario = 'tl-search-form-14699';
+    tlScenarioBtn = '14699';
+  } else if (domain === 'arthotel.ivhg.ru') {
     tlScenario = 'tl-search-form-9193';
     tlScenarioBtn = '9193';
   }

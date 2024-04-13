@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RoomBlock/RoomBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomBlock/RoomBlock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/content.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/content.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +126,7 @@
       <workItem from="1708154432697" duration="1869000" />
       <workItem from="1712716954198" duration="928000" />
       <workItem from="1712850820889" duration="1372000" />
-      <workItem from="1713016530076" duration="2245000" />
+      <workItem from="1713016530076" duration="3066000" />
     </task>
     <task id="LOCAL-00001" summary="pre-alfa fix">
       <option name="closed" value="true" />
