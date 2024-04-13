@@ -11,10 +11,12 @@ interface RoomProps {
   image: string,
   bg: string
   btnText: string,
+  tlScenarioBtn: string
+
 }
 
 
-const RoomBlock: FC<RoomProps> = ({room, image, btnText, bg}) => {
+const RoomBlock: FC<RoomProps> = ({room, image, btnText, bg, tlScenarioBtn}) => {
 
   return (
       <div className={`py-5 ${styles.mainBlock}`}>
@@ -35,7 +37,7 @@ const RoomBlock: FC<RoomProps> = ({room, image, btnText, bg}) => {
             </div>
             <button className={`px-[75px] text-black py-4 font-bold rounded-xl w-[80%] max-w-[416px] bg-white border-white
                     border-[1px] border-darkPurple hover:bg-darkPurple hover:border-darkPurple hover:text-white hover:bg-transparent transition
-                    ${styles.button}`} data-tl-booking-open="true" data-tl-room={room["room-type"]}>{btnText}
+                    ${styles.button}`} data-tl-booking-open="true" data-tl-room={room["room-type"]} data-tl-booking-scenario={tlScenarioBtn}>{btnText}
             </button>
           </div>
         </div>

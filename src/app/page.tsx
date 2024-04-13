@@ -128,7 +128,13 @@ const Hotel = async ({params}: {
             <div className='flex flex-col gap-[85px] lg:gap-12 111'>
               {Object.entries(rooms).map(([roomKey, roomInfo], idx) => (
                   <div key={roomKey}>
-                    <RoomBlock room={roomInfo} image={roomsImg[idx]} btnText={content.rooms.button} bg={content.colors.light_bg_color}></RoomBlock>
+                    <RoomBlock
+                        room={roomInfo}
+                        image={roomsImg[idx]}
+                        btnText={content.rooms.button}
+                        bg={content.colors.light_bg_color}
+                        tlScenarioBtn={tlScenarioBtn}
+                    ></RoomBlock>
                   </div>
               ))}
             </div>
