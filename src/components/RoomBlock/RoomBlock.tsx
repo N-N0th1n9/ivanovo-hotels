@@ -4,7 +4,6 @@ import {RoomInfo} from "@/interfaces/content.interfaces";
 import {FC} from "react";
 import Image from "next/image";
 import styles from './RoomBlock.module.scss'
-import {headers} from "next/headers";
 
 interface RoomProps {
   room: RoomInfo,

@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="471ccbcc-b6eb-42a0-bbf1-cfc11e4c49a2" name="Changes" comment="pre-alfa fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/hotel-selection/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/hotel-selection/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RoomBlock/RoomBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomBlock/RoomBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/roomImgLinks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/roomImgLinks.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/content.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/content.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +128,8 @@
       <workItem from="1708154432697" duration="1869000" />
       <workItem from="1712716954198" duration="928000" />
       <workItem from="1712850820889" duration="1372000" />
-      <workItem from="1713016530076" duration="3066000" />
+      <workItem from="1713016530076" duration="5326000" />
+      <workItem from="1713024011427" duration="969000" />
     </task>
     <task id="LOCAL-00001" summary="pre-alfa fix">
       <option name="closed" value="true" />

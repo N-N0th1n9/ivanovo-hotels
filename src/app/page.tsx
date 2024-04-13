@@ -13,14 +13,11 @@ import {roomsImg} from "@/constants/roomImgLinks";
 import {Metadata, ResolvingMetadata} from "next";
 import {metaProps} from "@/interfaces/metaProps.interfaec";
 import {headers} from "next/headers";
-import {log} from "node:util";
 
 const inter = Inter({ subsets: ['latin'], variable: '--var-inter' })
 
 export async function generateMetadata({ params, searchParams }: metaProps, parent: ResolvingMetadata): Promise<Metadata> {
-
   const content = await getContent(params.subdomain)
-
   return {
     title: content.main.title.substring(1) + " - отель в Иваново, официальный сайт",
     description: 'Отличный отель в Иваново с потрясающими условиями на любой вкус. Отдых здесь запомнится на долгие годы. Один из сети отелей Ивановоотель и Артотель.',
@@ -128,7 +125,7 @@ const Hotel = async ({params}: {
               <span style={{ color: darkSecondaryColor}}>/</span>
               <span style={{ color: lightTextColor}}>{content.rooms.title}</span>
             </div>
-            <div className='flex flex-col gap-[85px] lg:gap-12 111'>
+            <div className='flex flex-col gap-[85px] lg:gap-12'>
               {Object.entries(rooms).map(([roomKey, roomInfo], idx) => (
                   <div key={roomKey}>
                     <RoomBlock
