@@ -1,25 +1,20 @@
 'use server'
 
-import {HotelData} from "@/interfaces/content.interfaces";
-import {headers} from "next/headers";
+import artHotelContent from '@/constants/artHotelContent.json'
+import ivanovoHotelContent from '@/constants/ivanovoHotelContent.json'
+import { headers } from 'next/headers'
 
-export const getContent = async (subdomain: string): Promise<HotelData> => {
-  const headersList = headers();
-  const domain = headersList.get('host') || "";
+export const getContent = async () => {
+	const headersList = headers()
+	const domain = headersList.get('host') || ''
 
-  let API_URL = 'http://109.68.215.225:8000/api/v1/test/hotel2';
+	let content = ivanovoHotelContent
 
-  if (domain === 'ivanovohotel.ivhg.ru') {
-    API_URL = 'http://109.68.215.225:8000/api/v1/test/hotel1';
-  } else if (domain === 'arthotel.ivhg.ru') {
-    API_URL = 'http://109.68.215.225:8000/api/v1/test/hotel2';
-  }
+	if (domain === 'ivanovohotel.ivhg.ru') {
+		content = ivanovoHotelContent
+	} else if (domain === 'arthotel.ivhg.ru') {
+		content = artHotelContent
+	}
 
-  try {
-    const response = await fetch(API_URL, { cache: 'no-store' });
-    const json = await response.json();
-    return json.result;
-  } catch (error) {
-    throw new Error()
-  }
-};
+	return content
+}

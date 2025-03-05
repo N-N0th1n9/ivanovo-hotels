@@ -1,27 +1,25 @@
 import type { Metadata } from 'next'
-import { Nunito_Sans} from 'next/font/google'
+import { Nunito_Sans } from 'next/font/google'
+import Script from 'next/script'
+import React from 'react'
 import './globals.css'
-import React from "react";
-import Script from "next/script";
-
 
 const nunito = Nunito_Sans({ subsets: ['latin'], variable: '--var-nunito' })
 
 export const metadata: Metadata = {
-  title: 'Hotel',
-  description: 'Отличный отель в городе Иваново',
-  keywords: ['Ивановоотель', 'Артотель', 'Ivanovootel', 'Arthotel'],
+	title: 'Hotel',
+	description: 'Отличный отель в городе Иваново',
+	keywords: ['Ивановоотель', 'Артотель', 'Ivanovootel', 'Arthotel'],
 }
 
 export default function RootLayout({
-  children,
+	children,
 }: {
-  children: React.ReactNode
+	children: React.ReactNode
 }) {
-  return (
-    <html lang="en" className='mx-auto'>
-        <Script>{
-            `(function(w) {
+	return (
+		<html lang='en' className='mx-auto'>
+			<Script>{`(function(w) {
         var q = [
             ['setContext', 'TL-INT-ivhg-ru_2024-01-26', 'ru'],
             ['embed', 'search-form', {
@@ -50,9 +48,8 @@ export default function RootLayout({
               s.onerror=s.onload=e(s,function(){l(h.slice(1,h.length))});c.appendChild(s)
           })(h);
       }
-    })(window);`
-        }</Script>
-      <body className={nunito.className}>{children}</body>
-    </html>
-  )
+    })(window);`}</Script>
+			<body className={nunito.className}>{children}</body>
+		</html>
+	)
 }

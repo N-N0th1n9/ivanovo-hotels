@@ -1,14 +1,14 @@
 .swiper-pagination {
-  position: absolute;
-  top: 90% !important;
-  left: 50%;
-  @apply md:top-[85%] 600px:top-[90%] #{!important}
+	position: absolute;
+	top: 90% !important;
+	left: 50%;
+	@apply md:top-[85%] 600px:top-[90%];
 }
 
 .swiper-pagination-bullet {
-  width: 21px;
-  height: 21px;
-  background: black;
-  margin: 0 20px !important;
-  @apply xl:w-[18px] xl:h-[18px] lg:w-4 lg:h-4 lg:mx-3 md:w-3 md:h-3 xs:w-[10px] xs:h-[10px] #{!important}
+	width: 21px;
+	height: 21px;
+	background: black;
+	margin: 0 20px !important;
+	@apply xl:w-[18px] xl:h-[18px] lg:w-4 lg:h-4 lg:mx-3 md:w-3 md:h-3 xs:w-[10px] xs:h-[10px];
 }
